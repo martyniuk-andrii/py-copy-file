@@ -21,7 +21,7 @@ def copy_file(command: str) -> None:
                     print(f"Error while copying file: {e}")
             else:
                 print(
-                    f"The specified file \"{source_file}\" "
+                    f"The specified file '{source_file}' "
                     f"could not be found. "
                     f"Please check if the file name and path are correct, "
                     f"and ensure that the file exists in the "
